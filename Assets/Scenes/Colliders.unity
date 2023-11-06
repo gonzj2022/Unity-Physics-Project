@@ -136,6 +136,7 @@ GameObject:
   - component: {fileID: 726026889}
   - component: {fileID: 726026888}
   - component: {fileID: 726026892}
+  - component: {fileID: 726026893}
   m_Layer: 0
   m_Name: Ball
   m_TagString: Untagged
@@ -150,7 +151,7 @@ SphereCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 726026887}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 762a7b6b757bb0e479b9f18ba6f1be5e, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -237,6 +238,24 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &726026893
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 726026887}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85995ec9c4d814383851078e709fcff4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  changeColor: 1
+  myColor: {r: 0, g: 1, b: 0, a: 0}
+  destroyEnemy: 1
+  destroyCollectibles: 0
+  pushPower: 2
+  collisionAudio: {fileID: 8300000, guid: b4258da4a64654986bde1ac116bf4462, type: 3}
 --- !u!1 &877950688
 GameObject:
   m_ObjectHideFlags: 0
