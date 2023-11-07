@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Colliders.unity
+- path: Assets/Scenes/Projectiles.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
